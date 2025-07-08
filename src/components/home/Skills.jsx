@@ -11,11 +11,11 @@ const Skills = () => {
   ];
 
   return (
-    <div className="w-full min-h-screen mt-10 px-4 md:px-10 lg:px-20 overflow-hidden">
+    <div className="w-full min-h-[60vh] mt-10 px-4 md:px-10 lg:px-20 overflow-hidden">
       {/* Heading */}
-      <div className='w-full text-center h-[30vh] relative flex items-center justify-center'>
+      <div className='w-full text-center h-[20vh] sm:h-[25vh] md:h-[30vh] relative flex items-center justify-center'>
         {/* ABOUT ME text as background */}
-        <div className='text-[10vh] md:text-[12vh] lg:text-[15vh] font-bold text-gray-100 select-none'>
+        <div className='text-[8vh] sm:text-[10vh] md:text-[12vh] lg:text-[15vh] font-bold text-gray-100 select-none'>
           EXPERTISE
         </div>
 
@@ -28,7 +28,8 @@ const Skills = () => {
         </div>
       </div>
       
-      <div className="space-y-4">
+      {/* Skills container with responsive padding */}
+      <div className="space-y-4 pb-8 sm:pb-12 md:pb-16">
         {skills.map((skill, index) => (
           <div key={index} className="space-y-1 py-2">
             <div className="flex justify-between items-center">

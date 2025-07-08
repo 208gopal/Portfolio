@@ -103,9 +103,18 @@ function Sidebar() {
 
         {/* Mobile View */}
         <ul className="md:hidden flex gap-4 text-xs">
-          {["Home", "About", "Work", "Resume"].map((item, i) => (
-            <li key={i} className="hover:text-[#20C997] cursor-pointer">{item}</li>
-          ))}
+          <li className={`text-md cursor-pointer tracking-wider`}>
+            <a href={scrollLink('#hero')}>Home</a>
+          </li>
+          <li className={`text-md cursor-pointer tracking-wider`}>
+            <a href={scrollLink('#about')}>About</a>
+          </li>
+          <li className={`text-md cursor-pointer tracking-wider`}>
+            <a href={scrollLink('#summary')}>Resume</a>
+          </li>
+          <li className={`text-md cursor-pointer tracking-wider`}>
+            <a href={scrollLink('#contact')}>Contact</a>
+          </li>
         </ul>
       </div>
 

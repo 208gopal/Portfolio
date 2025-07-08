@@ -41,12 +41,11 @@ function About() {
           </div>
 
           {/* Right Section */}
-          <div className='w-full h-[35vh] lg:w-1/3 text-gray-800 flex flex-col items-center lg:items-start'>
+          <div className='w-full min-h-[35vh] lg:w-1/3 text-gray-800 flex flex-col items-center lg:items-start'>
             {/* Info Section */}
             <div className='w-full mb-10'>
               <p><span className='font-bold'>Name:</span> Gopal Gupta</p>
               <div className='w-full h-[2px] bg-gray-100 my-4'></div>
-
               <p>
                 <span className='font-bold'>Email:</span>{' '}
                 <a href='mailto:208gopalgupta@gmail.com' className='text-[#20C997] hover:underline'>
@@ -54,22 +53,22 @@ function About() {
                 </a>
               </p>
               <div className='w-full h-[2px] bg-gray-100 my-4'></div>
-
               <p><span className='font-bold'>Age:</span> 19</p>
               <div className='w-full h-[2px] bg-gray-100 my-4'></div>
-
               <p><span className='font-bold'>From:</span> Delhi, India</p>
             </div>
 
             {/* Download CV Button */}
-            <div className='text-center w-full'>
-              <a href='https://drive.google.com/file/d/1t22X1oSK2imGYDTJyEatCAwaH2p6vqo7/view?usp=drive_link' className='bg-[#20C997] text-white font-semibold text-lg px-8 py-4 my-4 rounded-full shadow-md hover:bg-[#1BAF87] transition duration-300'>
+            <div className='w-full pt-2'>
+              <a 
+                href='https://drive.google.com/file/d/1t22X1oSK2imGYDTJyEatCAwaH2p6vqo7/view?usp=drive_link'
+                className='inline-block bg-[#20C997] text-white font-semibold px-6 py-3 rounded-full shadow-md hover:bg-[#1BAF87] transition duration-300'
+              >
                 Download CV
               </a>
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   );
