@@ -41,7 +41,7 @@ function About() {
           </div>
 
           {/* Right Section */}
-          <div className='w-full lg:w-1/3 text-gray-800 flex flex-col items-center lg:items-start'>
+          <div className='w-full h-[35vh] lg:w-1/3 text-gray-800 flex flex-col items-center lg:items-start'>
             {/* Info Section */}
             <div className='w-full mb-10'>
               <p><span className='font-bold'>Name:</span> Gopal Gupta</p>
