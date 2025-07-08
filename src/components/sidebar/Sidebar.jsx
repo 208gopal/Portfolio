@@ -71,7 +71,7 @@ function Sidebar() {
 
       {/* Profile Image and Name */}
       <div className="flex items-center gap-3 md:flex-col md:items-center md:mt-5">
-        <div className="w-12 h-12 md:w-32 md:h-32 rounded-full border-4 md:border-8 border-[#4c4d4d] overflow-hidden">
+        <div className="w-12 h-12 md:w-32 md:h-32 hidden sm:block rounded-full border-4 md:border-8 border-[#4c4d4d] overflow-hidden">
           <img src={profilePicture} alt="Profile" className="w-full h-full object-cover scale-150" />
         </div>
         <h1 className="text-base md:text-xl font-semibold text-white text-center">Gopal Gupta</h1>
