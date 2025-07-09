@@ -44,7 +44,7 @@ function Contact() {
           <div className="flex-1">
             <h3 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">Let's start new project.</h3>
             <p className='text-base text-gray-500 tracking-wide mb-10'>
-              Now, as you were able to get a picture of who we are, it is up to you to contact us and lay
+              Now, as you were able to get a picture of who I am, it is up to you to contact me and lay
               the foundation for a new and successful business relationship.
             </p>
 
